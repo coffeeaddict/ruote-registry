@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Hartog C. de Mik"]
   s.date = "2012-07-25"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Keep a registry of process defitions by name"
   s.email = "hartog@organisedminds.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/ruote-registry.rb",
+    "ruote-registry.gemspec",
     "spec/ruote-registry_spec.rb",
     "spec/spec_helper.rb"
   ]
@@ -33,7 +34,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.11"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Keep a registry of process definitions"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
