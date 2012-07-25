@@ -1,9 +1,18 @@
 = ruote-registry
 
-Description goes here.
+Keep a registry of process definitions
+
+  orig = Ruote.define(:name => "wonderland") do
+    alice
+  end
+
+  pdef = Ruote.definition("wonderland")
+
+  pdef == orig  # true
+
 
 == Contributing to ruote-registry
- 
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
 * Fork the project.
