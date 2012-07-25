@@ -16,7 +16,11 @@ module Ruote
       
       return pdef
     end
-    
+
+    # Return a stored pdef
+    #
+    # @param [String,Symbol] name The :name of the definition
+    #
     def definition(name)
       @pdef_registry[name.to_sym]
     end
