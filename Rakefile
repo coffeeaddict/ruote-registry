@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "ruote-registry"
   gem.homepage = "http://github.com/coffeeaddict/ruote-registry"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Keep a registry of process definitions}
+  gem.description = %Q{Keep a registry of process defitions by name}
   gem.email = "hartog@organisedminds.com"
   gem.authors = ["Hartog C. de Mik"]
   # dependencies defined in Gemfile
